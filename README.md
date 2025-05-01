@@ -1,4 +1,4 @@
-# templater
+# temlpater
 
 A command-line tool written in Haskell for managing and reusing file templates.
 
@@ -32,7 +32,7 @@ The tool provides three main commands:
 Save a file as a template:
 
 ```bash
-templater store -t path/to/file
+temlpater store -t path/to/file
 ```
 
 ### Load a template
@@ -40,13 +40,13 @@ templater store -t path/to/file
 Load a template to your current directory:
 
 ```bash
-templater load template-name
+temlpater load template-name
 ```
 
 You can also specify a custom output path:
 
 ```bash
-templater load template-name -o path/to/output
+temlpater load template-name -o path/to/output
 ```
 
 ### List templates
@@ -54,12 +54,12 @@ templater load template-name -o path/to/output
 View all available templates:
 
 ```bash
-templater list
+temlpater list
 ```
 
 ## Template Storage
 
-Templates are stored in `~/.templater/` directory. Each template is stored as a separate file with its original name.
+Templates are stored in `~/.temlpater/` directory. Each template is stored as a separate file with its original name.
 
 ## License
 

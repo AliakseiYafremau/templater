@@ -45,7 +45,7 @@ commandParser = subparser
 getTemplatesDir :: IO FilePath
 getTemplatesDir = do
     home <- getHomeDirectory
-    return $ home </> ".templater"
+    return $ home </> ".temlpater"
 
 storeTemplate :: FilePath -> IO ()
 storeTemplate srcFile = do
